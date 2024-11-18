@@ -1,0 +1,44 @@
+{
+  "name": "rag-toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cjs/ragToolkit.cjs.js",
+  "module": "dist/esm/ragToolkit.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "vite",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "jest": "^29.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.27.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.15",
+    "@langchain/core": "^0.3.18",
+    "@langchain/openai": "^0.3.13",
+    "buffer": "^6.0.3",
+    "cheerio": "^1.0.0",
+    "langchain": "^0.3.6",
+    "pdfjs-dist": "^4.8.69",
+    "tslib": "^2.8.1"
+  }
+}
